@@ -37,4 +37,8 @@ cette commande va redemarrer votre pc.
 - ouvrez la  cle publique et copier son contenu
 - le coller sur le site de github dans la section settings > deploy keys > add deploy key et validez en cliquant sur le bouton add.
   
-  ![df](./images/Capture%20d%E2%80%99%C3%A9cran%202023-06-16%20103641.png)
+## installation NVM et node
+
+- executer ``wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash ``
+- executer ``nvm install node ``
+- executer ``nvm use (version desiree)``
